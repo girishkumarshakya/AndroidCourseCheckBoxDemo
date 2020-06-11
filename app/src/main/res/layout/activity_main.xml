@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/qualification" />
+
+    <CheckBox
+        android:id="@+id/checkBoxPrimary"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/primary" />
+
+    <CheckBox
+        android:id="@+id/checkBoxGraduation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/graduation" />
+
+    <CheckBox
+        android:id="@+id/checkBoxPost"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/postgra" />
+
+    <CheckBox
+        android:id="@+id/checkBoxOther"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/other" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/gender" />
+
+    <RadioGroup
+        android:id="@+id/radioGroupGender"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <RadioButton
+            android:id="@+id/radioButtonFemale"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/female" />
+
+        <RadioButton
+            android:id="@+id/radioButtonMale"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/male" />
+
+    </RadioGroup>
+
+    <ToggleButton
+        android:id="@+id/toggleButtonOnOFF"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textOn="Toogling is On"
+        android:textOff="Toggling is OFF"
+        android:text="ToggleButton" />
+
+    <Spinner
+        android:id="@+id/spinnerPerson"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+</LinearLayout>

@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">CheckBoxDemo</string>
+    <string name="qualification">What is your qualification</string>
+    <string name="primary">Primary School</string>
+    <string name="graduation">Graduate</string>
+    <string name="postgra">Post Graduation</string>
+    <string name="other">Other</string>
+    <string name="gender">What is Gender</string>
+    <string name="male">Male</string>
+    <string name="female">Female</string>
+    <string-array name="persons">
+        <item>John</item>
+        <item>Mary</item>
+        <item>Adam</item>
+        <item>Girish</item>
+        <item>Ashish</item>
+        <item>Shiva</item>
+    </string-array>
+</resources>
